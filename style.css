@@ -1,0 +1,300 @@
+* {
+    background-color: black;
+}
+
+body {
+    margin: 0%;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    left: 2em;
+    top: -.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+li {
+    margin: .5%;
+    font-size: 19px;
+    position: relative;
+    color: white;
+    display: inline;
+    top: 1.5em;
+    left: 35%;
+}
+
+.but1 {
+    width: 139px;
+    padding: 20px;
+    border-radius: 200px;
+    border-color: white;
+    position: absolute;
+    color: white;
+    left: 85%;
+    top: 2em;
+    background-color: red;
+}
+
+.but2 {
+    width: 139px;
+    padding: 20px;
+    border-radius: 200px;
+    border-color: white;
+    position: absolute;
+    color: white;
+    left: 71%;
+    top: 2em;
+}
+
+.imgslider {
+    position: absolute;
+    width: 1263px;
+    height: 530px;
+    top: 6em;
+    background-image: url(./img1.webp);
+    animation: changeimage 15s linear infinite;
+}
+
+@keyframes changeimage {
+    0% {
+        background-image: url(./img1.webp);
+    }
+    25% {
+        background-image: url(./img2.webp);
+    }
+    50% {
+        background-image: url(./img3.webp);
+    }
+    75% {
+        background-image: url(./img4.webp);
+    }
+}
+
+h2{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top: 17em;
+    left: 10em;
+    font-family: math;
+}
+b{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+p{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 40em;
+    left: 15em;
+}
+
+div .img5{
+    position: absolute;
+    height: 100px;
+    top: 55em;
+    left: 14.4em;
+}
+
+div .img6{
+    position: absolute;
+    height: 100px;
+    top: 55em;
+    left: 32em;
+}
+
+div .img7{
+    position: absolute;
+    height: 100px;
+    top: 55em;
+    left: 49em;
+}
+
+div .but5{
+    position: absolute;
+    color: white;
+    border-radius: 200px;
+    border-color: white;
+    width: 150px;
+    padding: 1em;
+    top: 77em;
+    left: 20em;
+}
+
+div .but6{
+    position: absolute;
+    color: white;
+    padding: 1em;
+    top: 77em;
+    left: 40em;
+    width: 150px;
+    border-radius: 200px;
+    border-color: white;
+}
+
+div .but7{
+    position: absolute;
+    color: white;
+    padding: 1em;
+    top: 77em;
+    left: 61em;
+    width: 150px;
+    border-radius: 200px;
+    border-color: white;
+}
+
+h3{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 48em;
+    left: 15em;
+    font-weight: bold;
+}
+
+pre{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    top: 103em;
+    left: 13em;
+    font-weight: bold;
+}
+
+.img{
+    position: absolute;
+    top: 102em;
+    left: 40em;
+}
+
+span>p{
+    position: relative;
+    top: -16em;
+    left: -28em;
+}
+
+span>p>i{
+    letter-spacing: 4px;
+    line-height: -1em;
+    color: red;
+}
+
+span>p>b{
+    line-height: 4em;
+}
+
+span>button{
+    position: absolute;
+    width: 150px;
+    padding: 15px;
+    top: 15em;
+    left: -42em;
+    color: white;
+    border-color: white;
+    border-radius: 25px;
+}
+
+.img8{
+    position: absolute;
+    top: 125em;
+}
+
+.img8>p{
+    position: relative;
+    top: -16.5em;
+    left: 32em;
+}
+
+.img8>button{
+    position: absolute;
+    width: 150px;
+    padding: 15px;
+    top: 14em;
+    left: 48em;
+    color: white;
+    border-color: white;
+    border-radius: 25px;
+}
+
+.img9{
+    position: absolute;
+    top: 147em;
+    left: 40em;
+}
+
+.img9>p{
+    position: relative;
+    top: -16em;
+    left: -28em;
+}
+
+.img9>button{
+    position: absolute;
+    width: 150px;
+    padding: 15px;
+    top: 15em;
+    left: -42em;
+    color: white;
+    border-color: white;
+    border-radius: 25px;
+}
+
+.p1>P{
+    position: absolute;
+    font-size: 40px;
+    width: 200px;
+    top: 70em;
+    left: 13em;
+}
+
+.imgs{
+    position: absolute;
+    top: 182em;
+    letter-spacing: 19px;
+    margin: 10px;
+}
+
+.imgss{
+    position: absolute;
+    top: 208em;
+    left: 5em;
+}
+
+.imgss>p{
+    position: relative;
+    top: 10px;
+    left: 5px;
+    opacity: 50%;
+    font-size: 15px;
+}
+
+.p2>h5{
+    position: absolute;
+    top: 164em;
+    left: 23em;
+    font-size: 20px;
+    color: white;
+}
+
+.p2>p{
+    position: absolute;
+    top: 167em;
+    left: 23em;
+    line-height: 2;
+    opacity: 50%;
+}
+
+.New{
+    position: absolute;
+    color: white;
+    width: 250px;
+    top: 225em;
+    left: 79em;
+    line-height: 2;
+}
+
+.New>p>small{
+    opacity: 50%;
+}
